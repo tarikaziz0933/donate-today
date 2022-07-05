@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.banner {
+    width: 100%;
+    padding: 150px 0;
+    color: white;
+    background-image: linear-gradient(to bottom left, rgba(228, 221, 221, 0.50) 10%, rgba(0, 0, 0, 0.80) 60%),
+        url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.link-button {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 45%;
+    background-image: linear-gradient(orange, yellow);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
