@@ -7,6 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+input {
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 10px 80px;
+    border: 0;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+}
+
 .banner {
     width: 100%;
     padding: 150px 0;
@@ -53,17 +62,25 @@ h1 {
     border: none;
 }
 
+.donate-plane {
+    padding: 30px 80px;
+    margin: 30px;
+}
+
 #button-color {
     background-color: aquamarine;
     border: 3px solid green;
 
 }
 
-input {
-    font-size: 20px;
-    margin-top: 10%;
-    padding: 10px 80px;
-    border: 0;
-    border-bottom: 1px solid;
-    margin-bottom: 40px;
+#plane-1 {
+    background-color: rgb(12, 214, 214);
+}
+
+#plane-2 {
+    background-color: burlywood;
+}
+
+#plane-3 {
+    background-color: rgb(185, 185, 37);
 }
