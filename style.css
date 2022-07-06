@@ -80,6 +80,22 @@ footer {
     margin: 50px;
 }
 
+.pic-width {
+    padding: 10px 40px;
+}
+
+.pic-width img {
+    width: 50%;
+}
+
+.info-button {
+    background: none;
+    font-size: 20px;
+}
+
+.event-list {
+    background-color: aqua;
+}
 
 .footer-head {
     color: brown;
