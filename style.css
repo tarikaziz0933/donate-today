@@ -7,7 +7,7 @@ h1 {
     font-size: 50px;
 }
 
-input {
+.donate-input {
     font-size: 20px;
     margin-top: 10%;
     padding: 10px 80px;
@@ -88,10 +88,36 @@ footer {
     color: aliceblue;
 }
 
+.subscribe-input {
+    margin-left: 100%;
+    width: 50%;
+    padding: 10% 50%;
+    border: none;
+    background-color: lightslategrey;
+}
+
+
+#link-update {
+    padding: 12% 90%;
+    margin-left: 300%;
+    width: 50%;
+    border: none;
+    border-radius: none;
+}
+
+.form__button {}
+
+
 #button-color {
     background-color: aquamarine;
     border: 3px solid green;
 
+}
+
+#update-background {
+    background-color: burlywood;
+    padding: 40px 60px;
+    margin: 30px 150px;
 }
 
 #plane-1 {
