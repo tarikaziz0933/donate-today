@@ -107,7 +107,7 @@ footer {
 }
 
 .subscribe-input {
-    margin-left: 88%;
+    margin-left: 140%;
     width: 50%;
     padding: 10% 50%;
     border: none;
@@ -117,11 +117,13 @@ footer {
 
 
 #link-update {
-    padding: 12% 90%;
-    margin-left: 300%;
-    width: 50%;
+    text-align: center;
+    padding: 17px 50px;
+    margin-left: 200%;
+    width: 100%;
     border: none;
     border-radius: none;
+    background-color: orange;
 }
 
 
