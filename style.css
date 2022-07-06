@@ -1,9 +1,10 @@
 body {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .banner {
@@ -24,10 +25,45 @@ h1 {
 
 .link-button {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 700;
-    margin: 45%;
-    background-image: linear-gradient(orange, yellow);
+    margin-left: 45%;
+    background-image: linear-gradient(orange, red);
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.button-position {
+    position: absolute;
+    left: 20%;
+}
+
+.donate-button {
+    padding: 30px 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+    border: none;
+}
+
+#button-color {
+    background-color: aquamarine;
+    border: 3px solid green;
+
+}
+
+input {
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 10px 80px;
+    border: 0;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
 }
